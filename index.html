@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#fff4e6">
+  <title>Pip's Quiz Party</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HOME -->
+  <section id="home" class="screen active">
+    <header class="home-top">
+      <div class="star-total" aria-label="Total stars">⭐ <span id="totalStars">0</span></div>
+      <button class="icon-btn" id="soundToggle" aria-label="Sound on or off">🔊</button>
+    </header>
+    <h1 class="title">Pip's Quiz Party</h1>
+    <div class="mascot-row">
+      <div class="mascot-slot" id="homeMascot"></div>
+      <div class="bubble" id="homeBubble">Hi! I'm Pip!</div>
+    </div>
+    <div class="lessons" id="lessons"></div>
+    <p class="load-error" id="loadError" hidden>
+      Oh no, Pip couldn't find the questions!<br>
+      Open this game from a web server (or GitHub Pages) instead of double-clicking the file.
+    </p>
+  </section>
+
+  <!-- PLAY -->
+  <section id="play" class="screen">
+    <header class="play-top">
+      <button class="icon-btn" id="quitBtn" aria-label="Back to menu">✕</button>
+      <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <div class="hearts" id="hearts" aria-label="Hearts"></div>
+      <div class="streak" id="streak" aria-label="Streak">🔥 <span id="streakNum">0</span></div>
+    </header>
+
+    <div class="stage">
+      <div class="mascot-row">
+        <div class="mascot-slot" id="playMascot"></div>
+        <div class="bubble" id="playBubble">Let's play!</div>
+      </div>
+
+      <div class="question">
+        <button class="speak-btn" id="speakBtn" aria-label="Hear the question again">🔊</button>
+        <h2 id="prompt"></h2>
+      </div>
+      <div class="show" id="show" hidden></div>
+
+      <div class="choices" id="choices"></div>
+    </div>
+  </section>
+
+  <!-- DONE -->
+  <section id="done" class="screen">
+    <h1 class="title" id="doneTitle">Great job!</h1>
+    <div class="mascot-slot big" id="doneMascot"></div>
+    <div class="stars" id="doneStars">
+      <span class="star">⭐</span><span class="star">⭐</span><span class="star">⭐</span>
+    </div>
+    <p class="done-text" id="doneText"></p>
+    <div class="done-buttons">
+      <button class="big-btn green" id="againBtn">Play again</button>
+      <button class="big-btn blue" id="homeBtn">More games</button>
+    </div>
+  </section>
+
+  <div id="confetti" aria-hidden="true"></div>
+
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "lessons": [
+    {
+      "id": "animals",
+      "title": "Animals",
+      "icon": "🐶",
+      "color": "#ffd68a",
+      "questions": [
+        { "prompt": "Which one is the cat?", "answer": 0, "choices": [ { "pic": "🐱", "label": "cat" }, { "pic": "🐶", "label": "dog" }, { "pic": "🐰", "label": "rabbit" } ] },
+        { "prompt": "Which one is the elephant?", "answer": 0, "choices": [ { "pic": "🐘", "label": "elephant" }, { "pic": "🦒", "label": "giraffe" }, { "pic": "🐴", "label": "horse" } ] },
+        { "prompt": "Which one is the fish?", "answer": 0, "choices": [ { "pic": "🐟", "label": "fish" }, { "pic": "🐦", "label": "bird" }, { "pic": "🐢", "label": "turtle" } ] },
+        { "prompt": "Which one is the lion?", "answer": 0, "choices": [ { "pic": "🦁", "label": "lion" }, { "pic": "🐻", "label": "bear" }, { "pic": "🐵", "label": "monkey" } ] },
+        { "prompt": "Which one is the frog?", "answer": 0, "choices": [ { "pic": "🐸", "label": "frog" }, { "pic": "🐢", "label": "turtle" }, { "pic": "🐍", "label": "snake" } ] },
+        { "prompt": "Which animal can fly?", "answer": 0, "choices": [ { "pic": "🐦", "label": "bird" }, { "pic": "🐄", "label": "cow" }, { "pic": "🐖", "label": "pig" } ] },
+        { "prompt": "Which animal lives in the sea?", "answer": 0, "choices": [ { "pic": "🐳", "label": "whale" }, { "pic": "🐑", "label": "sheep" }, { "pic": "🐿️", "label": "squirrel" } ] },
+        { "prompt": "Which one is the baby chick?", "answer": 0, "choices": [ { "pic": "🐤", "label": "chick" }, { "pic": "🦆", "label": "duck" }, { "pic": "🦉", "label": "owl" } ] }
+      ]
+    },
+    {
+      "id": "sounds",
+      "title": "Animal Sounds",
+      "icon": "🐮",
+      "color": "#ffb8cc",
+      "questions": [
+        { "prompt": "Who says Moo?", "answer": 0, "choices": [ { "pic": "🐄", "label": "cow" }, { "pic": "🐱", "label": "cat" }, { "pic": "🦆", "label": "duck" } ] },
+        { "prompt": "Who says Woof?", "answer": 0, "choices": [ { "pic": "🐶", "label": "dog" }, { "pic": "🐑", "label": "sheep" }, { "pic": "🐸", "label": "frog" } ] },
+        { "prompt": "Who says Meow?", "answer": 0, "choices": [ { "pic": "🐱", "label": "cat" }, { "pic": "🐄", "label": "cow" }, { "pic": "🐔", "label": "chicken" } ] },
+        { "prompt": "Who says Quack?", "answer": 0, "choices": [ { "pic": "🦆", "label": "duck" }, { "pic": "🐶", "label": "dog" }, { "pic": "🐷", "label": "pig" } ] },
+        { "prompt": "Who says Oink?", "answer": 0, "choices": [ { "pic": "🐷", "label": "pig" }, { "pic": "🐴", "label": "horse" }, { "pic": "🦁", "label": "lion" } ] },
+        { "prompt": "Who says Baa?", "answer": 0, "choices": [ { "pic": "🐑", "label": "sheep" }, { "pic": "🐱", "label": "cat" }, { "pic": "🐸", "label": "frog" } ] },
+        { "prompt": "Who says Ribbit?", "answer": 0, "choices": [ { "pic": "🐸", "label": "frog" }, { "pic": "🐄", "label": "cow" }, { "pic": "🐦", "label": "bird" } ] },
+        { "prompt": "Who says Roar?", "answer": 0, "choices": [ { "pic": "🦁", "label": "lion" }, { "pic": "🐰", "label": "rabbit" }, { "pic": "🐟", "label": "fish" } ] }
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "icon": "🎨",
+      "color": "#b8dcff",
+      "questions": [
+        { "prompt": "Which one is red?", "answer": 0, "choices": [ { "swatch": "#ef4444", "label": "red" }, { "swatch": "#3b82f6", "label": "blue" }, { "swatch": "#facc15", "label": "yellow" } ] },
+        { "prompt": "Which one is blue?", "answer": 0, "choices": [ { "swatch": "#3b82f6", "label": "blue" }, { "swatch": "#22c55e", "label": "green" }, { "swatch": "#f97316", "label": "orange" } ] },
+        { "prompt": "Which one is yellow?", "answer": 0, "choices": [ { "swatch": "#facc15", "label": "yellow" }, { "swatch": "#a855f7", "label": "purple" }, { "swatch": "#ef4444", "label": "red" } ] },
+        { "prompt": "Which one is green?", "answer": 0, "choices": [ { "swatch": "#22c55e", "label": "green" }, { "swatch": "#f472b6", "label": "pink" }, { "swatch": "#3b82f6", "label": "blue" } ] },
+        { "prompt": "Which one is orange?", "answer": 0, "choices": [ { "swatch": "#f97316", "label": "orange" }, { "swatch": "#22c55e", "label": "green" }, { "swatch": "#a855f7", "label": "purple" } ] },
+        { "prompt": "Which one is purple?", "answer": 0, "choices": [ { "swatch": "#a855f7", "label": "purple" }, { "swatch": "#facc15", "label": "yellow" }, { "swatch": "#92400e", "label": "brown" } ] },
+        { "prompt": "What color is the banana?", "show": "🍌", "answer": 0, "choices": [ { "swatch": "#facc15", "label": "yellow" }, { "swatch": "#3b82f6", "label": "blue" }, { "swatch": "#f472b6", "label": "pink" } ] },
+        { "prompt": "What color is the frog?", "show": "🐸", "answer": 0, "choices": [ { "swatch": "#22c55e", "label": "green" }, { "swatch": "#f97316", "label": "orange" }, { "swatch": "#ef4444", "label": "red" } ] }
+      ]
+    },
+    {
+      "id": "counting",
+      "title": "Counting",
+      "icon": "🔢",
+      "color": "#c3f0d8",
+      "questions": [
+        { "prompt": "How many apples?", "show": "🍎🍎", "answer": 0, "choices": [ { "num": "2" }, { "num": "3" }, { "num": "1" } ] },
+        { "prompt": "How many chicks?", "show": "🐥🐥🐥", "answer": 0, "choices": [ { "num": "3" }, { "num": "2" }, { "num": "5" } ] },
+        { "prompt": "How many stars?", "show": "⭐", "answer": 0, "choices": [ { "num": "1" }, { "num": "4" }, { "num": "2" } ] },
+        { "prompt": "How many balloons?", "show": "🎈🎈🎈🎈", "answer": 0, "choices": [ { "num": "4" }, { "num": "3" }, { "num": "6" } ] },
+        { "prompt": "How many fish?", "show": "🐟🐟🐟🐟🐟", "answer": 0, "choices": [ { "num": "5" }, { "num": "4" }, { "num": "2" } ] },
+        { "prompt": "How many strawberries?", "show": "🍓🍓🍓", "answer": 0, "choices": [ { "num": "3" }, { "num": "1" }, { "num": "4" } ] },
+        { "prompt": "How many ladybugs?", "show": "🐞🐞", "answer": 0, "choices": [ { "num": "2" }, { "num": "5" }, { "num": "3" } ] },
+        { "prompt": "How many flowers?", "show": "🌸🌸🌸🌸", "answer": 0, "choices": [ { "num": "4" }, { "num": "2" }, { "num": "5" } ] }
+      ]
+    },
+    {
+      "id": "shapes",
+      "title": "Shapes",
+      "icon": "🔷",
+      "color": "#dccdff",
+      "questions": [
+        { "prompt": "Which one is the circle?", "answer": 0, "choices": [ { "shape": "circle", "color": "#f472b6", "label": "circle" }, { "shape": "square", "color": "#60a5fa", "label": "square" }, { "shape": "triangle", "color": "#fbbf24", "label": "triangle" } ] },
+        { "prompt": "Which one is the square?", "answer": 0, "choices": [ { "shape": "square", "color": "#34d399", "label": "square" }, { "shape": "star", "color": "#f472b6", "label": "star" }, { "shape": "circle", "color": "#a78bfa", "label": "circle" } ] },
+        { "prompt": "Which one is the triangle?", "answer": 0, "choices": [ { "shape": "triangle", "color": "#60a5fa", "label": "triangle" }, { "shape": "heart", "color": "#fb7185", "label": "heart" }, { "shape": "square", "color": "#fbbf24", "label": "square" } ] },
+        { "prompt": "Which one is the star?", "answer": 0, "choices": [ { "shape": "star", "color": "#fbbf24", "label": "star" }, { "shape": "circle", "color": "#34d399", "label": "circle" }, { "shape": "diamond", "color": "#a78bfa", "label": "diamond" } ] },
+        { "prompt": "Which one is the heart?", "answer": 0, "choices": [ { "shape": "heart", "color": "#fb7185", "label": "heart" }, { "shape": "triangle", "color": "#34d399", "label": "triangle" }, { "shape": "star", "color": "#60a5fa", "label": "star" } ] },
+        { "prompt": "Which one is the diamond?", "answer": 0, "choices": [ { "shape": "diamond", "color": "#a78bfa", "label": "diamond" }, { "shape": "square", "color": "#fb7185", "label": "square" }, { "shape": "heart", "color": "#fbbf24", "label": "heart" } ] },
+        { "prompt": "A ball is shaped like a...", "show": "⚽", "answer": 0, "choices": [ { "shape": "circle", "color": "#60a5fa", "label": "circle" }, { "shape": "triangle", "color": "#f472b6", "label": "triangle" }, { "shape": "square", "color": "#34d399", "label": "square" } ] },
+        { "prompt": "A pizza slice is shaped like a...", "show": "🍕", "answer": 0, "choices": [ { "shape": "triangle", "color": "#fbbf24", "label": "triangle" }, { "shape": "circle", "color": "#a78bfa", "label": "circle" }, { "shape": "heart", "color": "#fb7185", "label": "heart" } ] }
+      ]
+    }
+  ]
+}
